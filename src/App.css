@@ -1,0 +1,61 @@
+nav {
+  width: 100vw;
+  background-color: rgb(169, 59, 19);
+  color:antiquewhite;
+  font-size: 26px;
+  padding: 5px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+nav ul li{
+  list-style: none;
+  margin-right: 1em;
+}
+
+nav ul li:hover {
+  color: rgb(51, 39, 15);
+}
+
+nav ul li:active {
+  background-color: antiquewhite;
+}
+
+/*---------------------------Login Styling--------------------------*/ 
+.card-body{
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: antiquewhite;
+  padding: 10px;
+  border: solid;
+  border-color: rgb(169, 59, 19)
+  
+}
+
+h3{
+  text-align:  center;
+}
+
+form{
+  align-items: center;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+label{
+  text-align: left;
+}
+
+button{
+  margin-top: 15px;
+  cursor: pointer;  
+}
